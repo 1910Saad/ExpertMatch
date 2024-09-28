@@ -2,7 +2,7 @@ import { FileInput, Label } from "flowbite-react";
 
 function HomePage() {
   return (
-    <div className="bg-[url('/homePage_background_Image.svg')] bg-[#f6eee3] bg-contain bg-center h- xl:h-[90%] flex flex-col xl:flex-row gap-8 px-4 xl:px-16 py-6 xl:py-12 bg-no-repeat xl:bg-repeat">
+    <div className="bg-[url('/homePage_background_Image.svg')] bg-[#f6eee3] bg-contain bg-center h- md:h-[100%] flex flex-col md:flex-row gap-8 px-4 md:px-16 py-6 md:py-12 bg-no-repeat md:bg-repeat">
       <div className="w-full xl:w-[30%] rounded-l-3xl backdrop-blur-sm shadow-lg shadow-zinc-500/40 bg-white/30 p-4 hover:shadow-2xl rounded-r-3xl xl:rounded-r-none">
         <h2 className="py-2 text-4xl font-semibold text-black text-gradient">
           Find <span className="text-gradient">Expert For Candidates</span>
@@ -31,16 +31,16 @@ function HomePage() {
         </div>
         <div className=" h-[80%]">
           <form action="" className="flex flex-col h-full gap-4">
-            <div className=" h-[12%] flex flex-col xl:flex-row px-4 xl:px-12">
-              <p className="self-start px-4 font-semibold text-black xl:self-center xl:px-0">
-                Enter name fo candidant:
+            <div className=" h-[12%] flex flex-col md:flex-row px-4 md:px-12">
+              <p className="self-start px-4 font-semibold text-black md:self-center md:px-0">
+                Enter name of candidant:
               </p>
               <input
                 type="text"
                 className="ml-4 outline-none rounded-xl backdrop-blur-sm bg-white/10 text-black my-1 border-zinc-400 border-[1px] w-[70%] text-lg  hover:shadow-2xl"
               />
             </div>
-            <div className="h-[60%] flex justify-center">
+            <div className="h-[64%] flex justify-center">
               <div className="flex w-[90%] h-full items-center justify-center ">
                 <Label
                   htmlFor="dropzone-file"
@@ -74,7 +74,7 @@ function HomePage() {
                 </Label>
               </div>
             </div>
-            <div className="px-12 py-4 xl:py-0 h-fit">
+            <div className="px-12 py-4 md:py-0 h-fit">
               <button className="px-6 py-2 bg-[#795757] rounded-xl w-full  hover:shadow-2xl">
                 <a className="w-full h-full" href="/resultPage">
                   See The Result
